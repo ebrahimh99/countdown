@@ -1,0 +1,163 @@
+/* -------------------------- navbar ------------------------------------------ */
+
+nav {
+    left: -25%;
+    top: 0;
+    width: 25%;
+}
+
+nav .inner ul li a.nav-link {
+    color: white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+nav .inner ul li a.nav-link.active,
+nav .inner ul li a.nav-link:hover {
+    color: red !important;
+
+}
+
+.bars {
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+
+
+/* -------------------------- sec-1 ------------------------------------------ */
+
+
+section#Home {
+    background-image: linear-gradient(rgba(187, 21, 21, 0.55), rgba(187, 21, 21, 0.55)), url(./../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+section#Home .inner {
+    height: 60vh;
+}
+
+section#Home .inner h2 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 72px;
+}
+
+section#Home .inner p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* -------------------------- sec-2 ------------------------------------------ */
+
+#sliderDown h3 {
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+#sliderDown .inner {
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+
+
+/* -------------------------- sec-3 ------------------------------------------ */
+section#Details {
+    background-image: linear-gradient(rgba(187, 21, 21, 0.55), rgba(187, 21, 21, 0.55)), url(./../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+section#Details .inner{
+    
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+
+/* -------------------------- sec-4 ------------------------------------------ */
+
+section#Contact .row form p span {
+    color: red;
+}
+
+
+
+section#Contact .row .info h2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+section#Contact .row .info h3 {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 21.6px;
+}
+
+section#Contact .row .info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+section#Contact .row .info h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+section#Contact .row .info h4.diff {
+    color: red !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+section#Contact .row .info .icons i {
+    color: #000000;
+    background: rgb(255, 255, 255);
+    padding: 8px;
+    border: 1px solid rgb(0, 0, 0);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+section#Contact .row .info .icons i:hover {
+    color: #ffffff;
+    background: red;
+    border: 1px solid rgb(255, 0, 0);
+
+}
